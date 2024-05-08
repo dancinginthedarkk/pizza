@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('.order__form');
 
-    const submitBtn = document.getElementById('submit-btn');
-
     const popup = document.getElementById('popup');
 
     const nameInput = document.getElementById('name');
