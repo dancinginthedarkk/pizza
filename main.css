@@ -2,28 +2,28 @@
     font-family: 'Myriad Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Myriad Pro Regular'), url('/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    src: local('Myriad Pro Regular'), url('./src/assets/fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Myriad Pro Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Myriad Pro Bold'), url('/fonts/MYRIADPRO-BOLD.woff') format('woff');
+    src: local('Myriad Pro Bold'), url('./src/assets/fonts/MYRIADPRO-BOLD.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Muller Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Muller Regular'), url('/fonts/Muller-Trial-Regular.woff') format('woff');
+    src: local('Muller Regular'), url('./src/assets/fonts/Muller-Trial-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Muller Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Muller Bold'), url('/fonts/Muller-Trial-Bold.woff') format('woff');
+    src: local('Muller Bold'), url('./src/assets/fonts/Muller-Trial-Bold.woff') format('woff');
 }
 
 body {

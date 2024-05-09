@@ -1,7 +1,11 @@
-import './validation';
-import './helpers';
-import './burger.js';
-import { descriptionItems, navigationItems, pizzas } from './helpers.js';
+import '/public/lightbox/js/lightbox-plus-jquery.min.js'
+import '/public/lightbox/css/lightbox.min.css'
+import './js/validation';
+import './js/helpers';
+import './js/burger.js';
+import '../main.css'
+
+import { descriptionItems, navigationItems, pizzas } from './js/helpers.js';
 
 document.addEventListener("DOMContentLoaded", function() {
     const favoritePizzaList = document.querySelector(".favorite-pizza__list");
@@ -58,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const image = document.createElement("img");
         image.src = item.image;
-        image.alt = "hop";
+        image.alt = item.title;
 
         const content = document.createElement("div");
 
